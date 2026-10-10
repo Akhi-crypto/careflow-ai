@@ -266,7 +266,7 @@ export default function CareFlowApp() {
         </div>
 
         {/* PRIMARY NAVIGATION TABS */}
-        <nav className="max-w-7xl mx-auto mt-3 pt-2 border-t border-slate-800/60 flex items-center gap-2 overflow-x-auto no-scrollbar text-xs sm:text-sm">
+        <nav className="max-w-7xl mx-auto mt-3 pt-2 border-t border-slate-800/60 flex flex-wrap items-center gap-2 text-xs sm:text-sm">
           <button
             onClick={() => setActiveTab("dashboard")}
             className={`px-3.5 py-1.5 rounded-lg whitespace-nowrap transition ${activeTab === "dashboard" ? "bg-slate-800 text-cyan-400 font-semibold" : "text-slate-400 hover:bg-slate-800/50"}`}
